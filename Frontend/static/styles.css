@@ -1,0 +1,9 @@
+/* frontend/static/style.css */
+
+.bar {
+    fill: steelblue; /* Color de relleno de las barras */
+}
+
+.bar:hover {
+    fill: orange; /* Cambia el color al pasar el mouse sobre las barras */
+}
