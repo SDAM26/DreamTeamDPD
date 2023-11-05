@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Motor de Búsqueda Amazon</title>
+  <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../templates/index.html">INICIO</a></li>
+      <li><a href="../templates/pruebanos.html">PRUEBANOS</a></li>
+      <li><a href="../templates/somos.html">QUIENES SOMOS</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <header>
+      <h1>Motor de Búsqueda Amazon</h1>
+    </header>
+    <main>
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Buscar productos...">
+        <button id="search-button">
+          <i class="fas fa-search"></i> Buscar
+        </button>
+        <label for="image-upload" class="camera-button">
+          <input type="file" id="image-upload" accept="image/*" style="display: none;">
+          <i class="fas fa-camera"></i> Subir imagen
+        </label>
+      </div>
+      <div id="results" class="results">
+        <!-- Los resultados de la búsqueda se mostrarán aquí -->
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
